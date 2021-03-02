@@ -1,0 +1,16 @@
+com\profillo\utilities\BrowserUtils.class
+com\profillo\pages\BasePage.class
+com\profillo\step_definitions\AddBookSmokeTestSuit_stepDefs.class
+com\profillo\step_definitions\Hooks.class
+com\profillo\utilities\ConfigurationReader.class
+com\profillo\pages\DashboardPage.class
+com\profillo\utilities\BrowserUtils$1.class
+com\profillo\runners\CukesRunner.class
+com\profillo\step_definitions\AddBookParameters_StepDefs.class
+com\profillo\pages\LoginPage.class
+com\profillo\utilities\Driver.class
+com\profillo\pages\AddParametersPage.class
+com\profillo\step_definitions\LoginStepDefs.class
+com\profillo\step_definitions\BookCategory_stepDefs.class
+com\profillo\pages\BookCategoryPage.class
+com\profillo\step_definitions\AddBook_stepDefs.class

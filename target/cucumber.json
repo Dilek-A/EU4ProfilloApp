@@ -1,0 +1,844 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10819652300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.profillo.step_definitions.LoginStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:17:41.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Add Book Function (Cucumber)",
+        "description": "",
+        "id": "add-book-functionality;add-book-function-(cucumber)",
+        "after": [
+          {
+            "result": {
+              "duration": 993909900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5101132900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on book module",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_book_module()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5085016800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Add Book button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_Add_Book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3633867000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills each add book parameters on add book window",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookParameters_StepDefs.user_fills_each_add_book_parameters_on_add_book_window()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3127963000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on save changes button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookParameters_StepDefs.user_clicks_on_save_changes_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2100670900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "new added book will appear on book management page",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookParameters_StepDefs.new_added_book_will_appear_on_book_management_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          },
+          {
+            "name": "@PROF-232"
+          },
+          {
+            "name": "@PROF-270"
+          },
+          {
+            "name": "@book"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6759872900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.profillo.step_definitions.LoginStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:18:13.009Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Add Book Parameters",
+        "description": "",
+        "id": "add-book-functionality;add-book-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 820779700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5125838000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on book module",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_book_module()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5095862800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on Add Book button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_Add_Book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3775269300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user fills each add book parameters on add book window",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookParameters_StepDefs.user_fills_each_add_book_parameters_on_add_book_window()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3108084700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on save changes button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookParameters_StepDefs.user_clicks_on_save_changes_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074051900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "new added book will appear on book management page",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookParameters_StepDefs.new_added_book_will_appear_on_book_management_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          },
+          {
+            "name": "@PROF-269"
+          },
+          {
+            "name": "@book"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8743206200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.profillo.step_definitions.LoginStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:18:39.783Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "ISBN Function (Cucumber)",
+        "description": "",
+        "id": "add-book-functionality;isbn-function-(cucumber)",
+        "after": [
+          {
+            "result": {
+              "duration": 2091721100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5099820400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on book module",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_book_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67653805100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on Add Book button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_Add_Book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3531053300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on ISBN box",
+            "match": {
+              "location": "com.profillo.step_definitions.IsbnFunc_stepDefs.user_clicks_on_ISBN_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3357153300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters ISBN data",
+            "match": {
+              "location": "com.profillo.step_definitions.IsbnFunc_stepDefs.user_enters_ISBN_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          },
+          {
+            "name": "@PROF-271"
+          },
+          {
+            "name": "@PROF-270"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7962942500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.profillo.step_definitions.LoginStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:20:10.266Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Year Function (Cucumber)",
+        "description": "",
+        "id": "add-book-functionality;year-function-(cucumber)",
+        "after": [
+          {
+            "result": {
+              "duration": 840329300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5084486900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user clicks on book module",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_book_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5081450800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user clicks on Add Book button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_Add_Book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3068809700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks on Year box",
+            "match": {
+              "location": "com.profillo.step_definitions.YearFunc_stepDefs.user_clicks_on_Year_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3115901100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enters Year data",
+            "match": {
+              "location": "com.profillo.step_definitions.YearFunc_stepDefs.user_enters_Year_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          },
+          {
+            "name": "@PROF-272"
+          },
+          {
+            "name": "@PROF-270"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9198643700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.profillo.step_definitions.LoginStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:20:35.436Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Book Categories (Cucumber)",
+        "description": "",
+        "id": "add-book-functionality;book-categories-(cucumber)",
+        "after": [
+          {
+            "result": {
+              "duration": 1009177200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5124820800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on book module",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_book_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5082247800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user clicks on Add Book button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBook_stepDefs.user_clicks_on_Add_Book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2132102400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user clicks on Book Category dropdown",
+            "match": {
+              "location": "com.profillo.step_definitions.BookCategory_stepDefs.the_user_clicks_on_Book_Category_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3402662500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user should see following options",
+            "match": {
+              "location": "com.profillo.step_definitions.BookCategory_stepDefs.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Action and Adventure"
+                ]
+              },
+              {
+                "cells": [
+                  "Anthology"
+                ]
+              },
+              {
+                "cells": [
+                  "Classic"
+                ]
+              },
+              {
+                "cells": [
+                  "Comic and Graphic Novel"
+                ]
+              },
+              {
+                "cells": [
+                  "Crime and Detective"
+                ]
+              },
+              {
+                "cells": [
+                  "Drama"
+                ]
+              },
+              {
+                "cells": [
+                  "Fable"
+                ]
+              },
+              {
+                "cells": [
+                  "Fairy Tale"
+                ]
+              },
+              {
+                "cells": [
+                  "Fan-Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Fantasy"
+                ]
+              },
+              {
+                "cells": [
+                  "Historical Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Horror"
+                ]
+              },
+              {
+                "cells": [
+                  "Science Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Biography/Autobiography"
+                ]
+              },
+              {
+                "cells": [
+                  "Humor"
+                ]
+              },
+              {
+                "cells": [
+                  "Romance"
+                ]
+              },
+              {
+                "cells": [
+                  "Short Story"
+                ]
+              },
+              {
+                "cells": [
+                  "Essay"
+                ]
+              },
+              {
+                "cells": [
+                  "Memoir"
+                ]
+              },
+              {
+                "cells": [
+                  "Poetry"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          },
+          {
+            "name": "@PROF-273"
+          },
+          {
+            "name": "@PROF-270"
+          }
+        ]
+      }
+    ],
+    "name": "Add Book Functionality",
+    "description": "",
+    "id": "add-book-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddBookFunc.feature",
+    "tags": [
+      {
+        "name": "@add",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7196656400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.profillo.step_definitions.LoginStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:21:01.394Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Add Book Functionality (Smoke Test Suit)",
+        "description": "",
+        "id": "add-book-smoke-test;add-book-functionality-(smoke-test-suit)",
+        "after": [
+          {
+            "result": {
+              "duration": 770040500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.profillo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5129452500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on books module",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookSmokeTestSuit_stepDefs.user_clicks_on_books_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7998700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Book Management page should be opened",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookSmokeTestSuit_stepDefs.book_Management_page_should_be_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3134693000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should be able to click to Add Book button",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookSmokeTestSuit_stepDefs.the_user_should_be_able_to_click_to_Add_Book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3043721800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Add Book window should be opened",
+            "match": {
+              "location": "com.profillo.step_definitions.AddBookSmokeTestSuit_stepDefs.add_Book_window_should_be_opened()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          },
+          {
+            "name": "@PROF-262"
+          },
+          {
+            "name": "@PROF-249"
+          }
+        ]
+      }
+    ],
+    "name": "Add Book Smoke Test",
+    "description": "",
+    "id": "add-book-smoke-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddBookSmokeTest.feature",
+    "tags": [
+      {
+        "name": "@add",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

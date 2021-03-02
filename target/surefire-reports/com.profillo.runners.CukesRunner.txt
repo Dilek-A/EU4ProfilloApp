@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.profillo.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.265 s <<< FAILURE! - in com.profillo.runners.CukesRunner
+Year Function (Cucumber)(EMPTY_NAME)  Time elapsed: 0.197 s  <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.profillo.step_definitions.AddBookParameters_StepDefs.new_added_book_will_appear_on_book_management_page() and com.profillo.step_definitions.AddBook_stepDefs.new_added_book_will_appear_on_book_management_page()
+
